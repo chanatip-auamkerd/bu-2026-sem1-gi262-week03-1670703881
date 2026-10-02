@@ -26,17 +26,17 @@ namespace Assignment.StudentSolution.LCT02
 
         public void Bark()
         {
-
+            Debug.Log($"{name} is barking");
         }
 
         public void WagTail()
         {
-
+            Debug.Log($"{name} is wagging");
         }
 
         public void StopBarking()
         {
-
+            Debug.Log($"{name} stopped ");
         }
 
         // end of behaviors ...
@@ -54,7 +54,8 @@ namespace Assignment.StudentSolution.LCT02
 
             // Student code starts HERE ...
             // ...
-
+            dog1 = new Dog();
+            dog1.name = "Buddy";
             // ...
             // Student code ends HERE ...
 
